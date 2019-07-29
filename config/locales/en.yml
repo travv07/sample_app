@@ -35,6 +35,8 @@ en:
       login: "Log in"
       new_user: "New User? %{link_sign_up}"
       fail_login: "Invalid email/password combination"
+      remember_me: "Remember me"
+      remember_me_message: "Remember me on this computer"
   notification:
     one: "The form contains 1 error"
     other: "The form contains %{count} errors"
