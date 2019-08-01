@@ -1,0 +1,16 @@
+<footer class="footer">
+  <small>
+    <%= t(".foot_message",
+      link_to_tutorial: link_to(t("static_pages.help.tutorial_message"),
+      "https://www.railstutorial.org/"),
+      link_to_micheal: link_to(t(".michael"),
+      "http://www.michaelhartl.com/")).html_safe %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("static_pages.about.title_message"), "#" %></li>
+      <li><%= link_to t("static_pages.about.title_message"), "#" %></li>
+      <li><%= link_to t(".new"), "http://news.railstutorial.org/" %></li>
+    </ul>
+  </nav>
+</footer>
