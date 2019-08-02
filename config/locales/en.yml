@@ -34,9 +34,16 @@ en:
     application:
       title_page: "Ruby on Rails Tutorial Sample App"
       _title: " | "
+    footer:
+      foot_message: "The %{link_to_tutorial} by %{link_to_micheal}"
+      michael: "Michael Hartl"
+      new: "News"
+    header:
+      home_message: "Sample App"
+      login_message: "Log in"
   static_pages:
     home:
-      title_page_message: "Sample App"
+      title_page_message: "Welcome to the Sample App"
       title_message: "Home"
       home_page_message: "This is the home page for the %{link_to_tutorial} sample application."
       rubyonrails_message: "Ruby on Rails"
@@ -58,3 +65,8 @@ en:
       contact_page_message: "Contact the Ruby on Rails Tutorial about the sample app at the
       %{link_to_contact}"
       contact_message: "contact page"
+  users:
+    new:
+      sign_up: "Sign up"
+      su_now: "Sign up now!"
+      page_message_su: "This will be a signup page for new users."
