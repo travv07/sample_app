@@ -30,6 +30,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  notification:
+    one: "The form contains 1 error"
+    other: "The form contains %{count} errors"
   layouts:
     application:
       title_page: "Ruby on Rails Tutorial Sample App"
@@ -43,6 +46,7 @@ en:
       login_message: "Log in"
   static_pages:
     home:
+
       title_page_message: "Welcome to the Sample App"
       title_message: "Home"
       home_page_message: "This is the home page for the %{link_to_tutorial} sample application."
@@ -69,4 +73,13 @@ en:
     new:
       sign_up: "Sign up"
       su_now: "Sign up now!"
+      confi: "Confirmation"
       page_message_su: "This will be a signup page for new users."
+      create_user: "Create my account"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+  shared:
+    error_messages:
+      contain: "The form contains %{count_error} ."
+      notfound: "Not found !!!"
