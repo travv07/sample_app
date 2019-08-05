@@ -30,6 +30,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  sessions:
+    new:
+      login: "Log in"
+      new_user: "New User? %{link_sign_up}"
+      fail_login: "Invalid email/password combination"
   notification:
     one: "The form contains 1 error"
     other: "The form contains %{count} errors"
@@ -44,9 +49,13 @@ en:
     header:
       home_message: "Sample App"
       login_message: "Log in"
+      logout: "Log out"
+      user_title: "Users"
+      profile: "Profile"
+      setting: "Settings"
+      account: "Account"
   static_pages:
     home:
-
       title_page_message: "Welcome to the Sample App"
       title_message: "Home"
       home_page_message: "This is the home page for the %{link_to_tutorial} sample application."

@@ -14,6 +14,7 @@ class UsersController < ApplicationController
     @user = User.new param_users
     if @user.save
       flash[:success] = t "static_pages.home.title_page_message"
+      log_in @user
       redirect_to @user
     else
       render :new
