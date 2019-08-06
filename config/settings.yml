@@ -6,3 +6,6 @@ helper:
   size: 80
 controller:
   remember_me: "1"
+  per_page: 20
+users:
+  size: 50
