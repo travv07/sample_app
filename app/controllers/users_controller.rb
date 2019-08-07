@@ -5,11 +5,13 @@ class UsersController < ApplicationController
   before_action :admin_user, only: [:destroy]
 
   def index
-    @users = User.where(activated: true).paginate(page: params[:page],
+    @users = User.activated?.paginate(page: params[:page],
       per_page: Settings.controller.per_page)
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.paginate(page: params[:page])
+  end
 
   def new
     @user = User.new
@@ -52,14 +54,6 @@ class UsersController < ApplicationController
   def param_users
     params.require(:user).permit(:name, :email,
       :password, :password_confirmation)
-  end
-
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = t "users.edit.request_login"
-      redirect_to login_path
-    end
   end
 
   def correct_user

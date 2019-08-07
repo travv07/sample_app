@@ -10,3 +10,12 @@ controller:
 users:
   size: 50
   time: 2
+microposts:
+  maximum_content: 140
+  size: 50
+  size_picture: 5
+avatar:
+  size: 50
+picture_uploader:
+  height_picture: 400
+  wight_picture: 400
