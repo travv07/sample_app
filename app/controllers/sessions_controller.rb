@@ -11,7 +11,6 @@ class SessionsController < ApplicationController
         redirect_back_or user
       else
         message = t "users.new.account_not_activation"
-        message += t "users.new.check_mail"
         flash[:warning] = message
         redirect_to root_url
       end
