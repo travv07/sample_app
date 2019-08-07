@@ -90,6 +90,18 @@ en:
       name: "Name"
       email: "Email"
       password: "Password"
+    edit:
+      title_message: "Edit user"
+      save_change: "Save changes"
+      change: "change"
+      update_profile: "Update your profile"
+      update_success: "Profile updated"
+      request_login: "Please log in."
+    index:
+      title_message: "All Users"
+      delete_success: "Users deleted"
+      sure: "You sure?"
+      delete: "delete"
   shared:
     error_messages:
       contain: "The form contains %{count_error} ."
