@@ -40,6 +40,11 @@ en:
   notification:
     one: "The form contains 1 error"
     other: "The form contains %{count} errors"
+  user_mailer:
+    account_activation:
+      welcome_active_app: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate_to: "Activate"
+      hi: "Hi"
   layouts:
     application:
       title_page: "Ruby on Rails Tutorial Sample App"
@@ -90,6 +95,13 @@ en:
       name: "Name"
       email: "Email"
       password: "Password"
+      account_activation: "Acount activated"
+      invalid_activation: "Invalid activation link"
+      account_not_activation: "Account not activated"
+      check_mail: "Check your mail for the activation link"
+      please_check_mail: "Please check your mail to activate your account"
+      email_default: "vovantra1198@gmail.com"
+      mailer: "mailer"
     edit:
       title_message: "Edit user"
       save_change: "Save changes"
