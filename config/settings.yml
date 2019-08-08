@@ -9,3 +9,4 @@ controller:
   per_page: 20
 users:
   size: 50
+  time: 2
