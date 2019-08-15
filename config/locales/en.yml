@@ -30,6 +30,23 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  js:
+    alert_danger_size: "Maximum file size is 5MB. Please choose a smaller file."
+  microposts:
+    micropost:
+      micropost_created: "Micropost created!"
+      micropost_deleted: "Micropost deleted!"
+      micropost_not_deleted: "Micropost delete fail!"
+      size_picture: "should be less  than 5MB"
+      new_micropost: "Compose new micropost..."
+      post: "Post"
+      posted: "Posted"
+      type_image: "image/jpeg, image/gif, image/png"
+
+      picture_message: "Maximum file size is 5MB. Please choose a smaller file."
+      show_micropost:
+        one: " 1 micropost"
+        other: " %{count} microposts"
   password_resets:
     new:
       title_message: "Forgot password"
@@ -91,6 +108,7 @@ en:
       title_message: "Home"
       home_page_message: "This is the home page for the %{link_to_tutorial} sample application."
       rubyonrails_message: "Ruby on Rails"
+      micropost_feed: "Micropost Feed"
     help:
       title_message: "Help"
       help_page_message: "Get help on the Ruby on Rails Tutorial at the %{link_to_tutorial_help}
@@ -125,6 +143,7 @@ en:
       please_check_mail: "Please check your mail to activate your account"
       email_default: "vovantra1198@gmail.com"
       mailer: "mailer"
+      view_profile: "view my profile"
     edit:
       title_message: "Edit user"
       save_change: "Save changes"
@@ -137,6 +156,8 @@ en:
       delete_success: "Users deleted"
       sure: "You sure?"
       delete: "delete"
+    show:
+      micropost: "Microposts"
   shared:
     error_messages:
       contain: "The form contains %{count_error} ."
