@@ -162,3 +162,8 @@ en:
     error_messages:
       contain: "The form contains %{count_error} ."
       notfound: "Not found !!!"
+    stats:
+      following: "following"
+      followers: "followers"
+      btn_follow: "Follow"
+      btn_unfollow: "Unfollow"
