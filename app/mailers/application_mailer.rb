@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: I18n.t("users.new.email_default")
-  layout I18n.t("users.new.mailer")
+  default from: "vovantra1198@gmail.com"
+  layout "mailer"
 end
