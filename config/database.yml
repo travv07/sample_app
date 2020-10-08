@@ -14,11 +14,12 @@ default: &default
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
-  password: 1
-  socket: /var/run/mysqld/mysqld.sock
+  password: 12345678
 
 development:
   <<: *default
+  host: 192.168.1.5
+  port: 3307
   database: sample_app_development
 
 # Warning: The database defined as "test" will be erased and
@@ -49,6 +50,6 @@ test:
 #
 production:
   <<: *default
+  host: localhost
+  port: 3306
   database: sample_app_production
-  username: sample_app
-  password: <%= ENV['SAMPLE_APP_DATABASE_PASSWORD'] %>
